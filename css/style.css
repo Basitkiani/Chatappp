@@ -1,0 +1,88 @@
+body {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(60, 128, 173));
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    margin-top: 12px;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+.logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    filter: invert(1);
+}
+
+
+.container {
+    background-color: rgb(60, 128, 173);
+    max-width: 100wh;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    border: 2px solid black;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+.message {
+    background-color: rgb(192, 181, 181);
+    width: 24%;
+    padding: 10px;
+    margin: 19px 5px;
+    border: 2px solid black;
+}
+
+.left {
+    float: left;
+    clear: both;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.right {
+    float: right;
+    clear: both;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.send-container {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    max-width: 1030px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#messageInp {
+    width: 87%;
+    border: 2px solid black;
+    border-radius: 8px;
+    height:38px;
+    font-size: 22px;
+    font-family: serif;
+    /* margin: auto;
+    display: block; */
+}
+.btn{
+    height:38px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 12px 6px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    width: 9%;
+}
